@@ -1,0 +1,34 @@
+@media print {
+    .interview-content {
+        grid-template-columns: 1fr;
+        page-break-inside: auto;
+    }
+
+    /* .interview-content {
+        page-break-inside: auto;
+    } */
+
+    .modal_home, .modal_close, .links-table {
+        display: none;
+    }
+
+    p, h1, h2, .link {
+        color: #000000 !important;
+    }
+
+    .interview-text-block {
+        border-left: none; padding-left: 0;
+    }
+
+    .image-border{
+        width: 100%;
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+    .main-image{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

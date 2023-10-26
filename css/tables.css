@@ -1,0 +1,11 @@
+table, th, td {
+    border-collapse: collapse;
+}
+  
+th, td {
+    font-family: "Gotham";
+    padding: 0%;
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.home-link:hover, .home-link:focus {opacity: 60%;}
+
+.gradient { background-image: linear-gradient(#ffffff00, var(--background-colour)); margin-top: 5%; padding-bottom: 40%;}
+
+.gradient-bottom { background-image: linear-gradient(var(--background-colour), #ffffff00); margin-top: 0; padding-top: 0; padding-bottom: 20%;}
+
+.footer-image { width: 100%; padding-bottom: 0; background-image: url(../media/photographs/hilda_parham.jpg); background-position: bottom; background-repeat: no-repeat; background-size: cover; padding-top: 0; margin-top: 5%;}
+
+.body-text-left {width: 50%; margin-left: 15%; text-align: left; font-size: 14pt; padding-bottom: 2%;}
+  
+.body-text-right {width: 50%; margin-right: 15%; margin-left: auto; text-align: right; font-size: 14pt; color: var(--text-colour); padding-bottom: 2%}
+  
+.heading-left {font-size: 32pt; font-weight: bold; padding-top: 2%; padding-bottom: 1%; text-align: left; width: 50%; margin-left: 15%; margin-right: auto; color: var(--text-colour); text-shadow: none;}
+  
+.heading-right {font-size: 32pt; font-weight: bold; padding-top: 2%; padding-bottom: 1%; text-align: right; width: 50%; margin-left: auto; margin-right: 15%; color: var(--text-colour); text-shadow: none;}
+
+.scroll-down {font-weight: bold; bottom: 1%; font-size: 14pt; position: fixed; user-select: none; text-align: center;}
+
+#scroll-down {transition: opacity .5s ease-in-out;}
+
+#information {font-family:'Times New Roman', Times, serif; font-size: 32pt; font-weight: normal; font-style: italic; letter-spacing: 2pt; padding-top: 3%; margin-top: -5%; padding-bottom: 0; text-align: right; width: 50%; margin-right: 15%; margin-left: auto; color: var(--text-colour); text-shadow: none;}
+
+.quote-attribution {font-size: 24pt; font-weight: lighter; padding-top: 3%; padding-bottom: 5%; text-align: right; width: 50%; margin-right: 15%; margin-left: auto; color: var(--text-colour); text-shadow: none;}
+
+.quote-footer {font-family:'Times New Roman', Times, serif; font-size: 28pt; font-weight: normal; font-style: italic; letter-spacing: 2pt; padding-top: 5%; margin-top: 5%; padding-bottom: 0; text-align: left; width: 50%; margin-right: auto; margin-left: 15%; color: var(--text-colour); text-shadow: none;}
+
+.quote-attribution-footer {font-size: 18pt; font-weight: lighter; padding-top: 2%; padding-bottom: 5%; text-align: left; width: 50%; margin-right: auto; margin-left: 15%; color: var(--text-colour); text-shadow: none;}

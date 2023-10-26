@@ -1,0 +1,60 @@
+:root {
+  --background-colour: inherit;
+  --text-colour: inherit;
+  --alt-text-colour: inherit;
+  --transparency-colour: inherit;
+  --modal-background-colour: inherit;
+}
+
+@font-face {font-family: Gotham; font-weight: normal; src: url(../fonts/GothamBook.ttf);}
+
+@font-face {font-family: Gotham; font-weight: bold; src: url(../fonts/GothamBold.ttf);}
+
+@font-face {font-family: Gotham; font-style: italic; src: url(../fonts/GothamBookItalic.ttf);}
+
+@font-face {font-family: Gotham; font-weight: lighter; src: url(../fonts/GothamLight.ttf);}
+
+html{scroll-behavior: smooth;}
+
+body {margin: 0; background-color: var(--background-colour);}
+
+header {width: 100%; background-image: url(../media/photographs/jim_collins.jpg); background-position: top; background-repeat: no-repeat; background-size: cover; padding-top: 2%;}
+
+h1 {color: #262626; font-family: "Gotham"; font-weight: bold; width: 50%; margin-left: 15%; font-size: 84pt; margin-bottom: 0px; text-align: left; color: #ffffff; margin-top: 0; text-shadow: 3pt 3pt #262626a0;}
+
+h2 {color: var(--text-colour); padding-top: 1%; font-family: "Gotham"; font-size: 22pt; margin-bottom: -5px; text-align: left;}
+
+a {color: #ffffffff; text-decoration: none; -o-transition:opacity .5s ease-in-out; -ms-transition:opacity .5s ease-in-out; -moz-transition:opacity .5s ease-in-out; -webkit-transition:opacity .5s ease-in-out; transition: opacity .5s ease-in-out;}
+
+.pageswitch {
+  margin-top: 1%;
+  font-size: 24pt;
+  font-weight: normal;
+  text-shadow: none;
+}
+
+.body-text {
+  font-family: "Gotham";
+  text-align: left;
+  width: 100%;
+  padding-top: .5%;
+  padding-left: 0%;
+  color: var(--alt-text-colour);
+}
+
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+::selection {background: #666666D0; color: #FFCD00;}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}

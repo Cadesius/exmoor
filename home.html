@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link rel="stylesheet" href="css/root-stylesheet.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/archive.css">
+    <link rel="stylesheet" href="css/theme-switch.css">
+    <link rel="stylesheet" href="css/tables.css">
+    <link rel="stylesheet" href="css/media-1600.css">
+    <link rel="stylesheet" href="css/media-980.css">
+    <link rel="stylesheet" href="css/media-750.css">
+    <link rel="shortcut icon" href="media/head/logo-icon.png">
+    <title>The Exmoor Oral History Archive</title>
+</head>
+<body>
+
+
+<header>
+    <a href="javascript:;" onclick="switchTheme (); switchCookie ()"><img class="theme-switch-icon" id="theme-switch-icon" src="media/theme-switch-icon/theme-switch-icon-inverted.png" title="Switch between dark and light mode" alt="Switch between dark and light mode"></a>
+    <h1 id="home-title"><a class="home-link" href="home.html">THE EXMOOR ORAL HISTORY ARCHIVE</a></h1>
+    <h1 class="pageswitch"><a class="home-link" href="archive.html">EXPLORE THE ARCHIVE&nbsp;&nbsp;<img src="media/arrows/right-arrow.svg" style="height: 17pt; color: #ffffff;"></a></h1>
+    <div class="gradient" id="gradient">
+        <p class="body-text scroll-down"><a class="home-link" id="scroll-down" href="#information" style="color: var(--text-colour);">OR SCROLL DOWN TO LEARN MORE<br>&#x25BC;</a></p>
+    </div>
+</header>
+
+<div>
+    <h1 id="information">"I walked the paths... A lot of people don't realise that every path in Exmoor is either a church path, a school path or a postman's path, and that means that they all go, literally, to one's back door. From one farm, to one house, in this particular way."</h1>
+    <h1 class="quote-attribution">- Jim Collins, Interviewed in 2001</h1>
+    <h1 class="heading-left" style="padding-top: 5%;">THE EXMOOR ORAL HISTORY ARCHIVE</h1>
+    <p class="body-text body-text-left">Over the course of the late 90s and early 2000s, project coordinator Birdie Johnson interviewed nearly one hundred long time residents of Exmoor and its surrounding areas. These interviews offer a fascinating insight into the life and times of each and every interviewee, and are an essential record of Devon and Somerset's history. Present are opinions and accounts of nearly every aspect of Rural life on the moor, from agriculture and engineering to llamas and bush burning, as well as pivotal moments from Exmoor's history, including both World Wars, the formation of the Park Authority and of course the eponymous Lynmouth flood. No one could argue that there's a more well defined history of Exmoor as one told by those who lived through it.</p>
+    <h1 class="heading-left">BIRDIE JOHNSON</h1>
+    <p class="body-text body-text-left">Birdie Johnson was brought up on a remote farm on Exmoor and lived there for many years. A firm believer in the importance of oral history, and particularly of the spoken word, she started recording people's life stories some time ago. She has found producing this archive to be a privilege and an extraordinary experience; one which will stay with her for the rest of her life. She has now moved to the High Weald of East Sussex, where the landscape serves as a replacement for the Exmoor she has left behind.</p>
+    <h1 class="heading-right">MARK RATTENBURY</h1>
+    <p class="body-text body-text-right">Mark Rattenbury has lived in Devon for most of his life. His work has varied, from press photography for publications like the Guardian to documenting a busy A & E department and working with the Beaford Arts Centre to create a photographic study of a rural farming community. His photography stems from a passionate interest in people and the issues which affect their lives. His journey around Exmoor was the fulfilment of a long-held desire to photograph a landscape through the people who reside there.
+    <br><br>
+    Following the launch of the archive, Mark took a step back from photography and retrained as a Mental Health Nurse. He is now (as of 2022) a Vocational Services Manager for New Leaf, part of Devon Partnership NHS Trust mental health rehabilitation services. He supports people in finding recovery and meaning through work based activity and brings the same dedication with which he approached photographing the contributors to the archive. His love of the landscape hasn't left him. He believes that however we choose to engage, nature surrounds and connects us all and that through that connection we can find healing and purpose in the every day.
+    <br><br>
+    Except where explicitly stated, all photographs depicted on this website were taken by Mark Rattenbury</p>
+    <h1 class="heading-right">UNLOCKING OUR SOUND HERITAGE</h1>
+    <p class="body-text body-text-right">'Unlocking Our Sound Heritage' is a UK-wide project that aims to preserve, digitise and provide public access to a large part of the nation's sound heritage. The UOSH project forms part of the core programme 'Save Our Sounds' led by the British Library and involving a consortium of ten regional and national archival institutions. Between 2017 and 2022 the aim is to digitise and make available up to 500,000 rare and unique sounds recordings, not only from the British Library's collection but from across the UK, dating from the birth of recorded sound in the 1880s to the present time. The recordings include sounds such as local dialects and accents, oral histories, previously inaccessible musical performances and plays, and rare wildlife sounds. The consortium will also deliver various public engagement programmes, and a website where up to 100,000 recordings will be freely available to everyone for research, enjoyment and inspiration.</p>
+</div>
+
+<div class="footer-image">
+    <div class="gradient-bottom">
+        <h1 class="quote-footer">"And it's really beautiful. It's a very happy picture that you can live with. And I thought it was really lovely."</h1>
+        <h1 class="quote-attribution-footer">- Hilda Parham, Interviewed in 2002</h1>
+    </div>
+    <p class="body-text" style="font-weight: bold; padding-top: 48%; padding-bottom: 2%; font-size: 14pt; margin-bottom: 0; text-shadow: 1pt 1pt #262626a0;"><a class="home-link" id="scroll-to-top" href="javascript:;" onclick="goToTop()" style="color: #ffffff;">RETURN TO TOP</a></p>
+</div>
+
+<footer></footer>
+
+</body>
+
+</html>
+
+<script>
+    let scrollDown = document.getElementById('scroll-down');
+
+    document.addEventListener('scroll', function() {
+        // Get scroll position
+        let scrollPosition = window.pageYOffset;
+
+        // Calculate whether the scroll it 350px or not then set the opacity to face the header out
+        if (scrollPosition <= 150) {
+            // scrollDown.style.opacity = 1;
+            scrollDown.href = "#information"
+            scrollDown.style.opacity = 1 - scrollPosition / 150;
+            // scrollDown.style.display = "inline";
+        } else {
+            scrollDown.removeAttribute ("href");
+            scrollDown.style.opacity = 0;
+            // scrollDown.style.display = "none";
+        }
+    });
+
+    button_scrollToTop = document.getElementById("scroll-to-top");
+
+    function goToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+<script src="javascript/footer-script.js"></script>
+<script src="javascript/theme-switch.js"></script>

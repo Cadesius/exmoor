@@ -1,0 +1,52 @@
+footer {background-color: #ffffff; color: white; padding-left: 15%; padding-right: 15%; padding-top: 3%; padding-bottom: 1%; margin-top: 0;}
+
+.footer-links {
+    width:80%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+td .footer-link {
+    display: block;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Gotham";
+    font-size: 12pt;
+    text-align: left;
+    padding: 14px 18px;
+    text-decoration: none;
+    -o-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -ms-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -moz-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -webkit-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+}
+
+td .footer-link:hover {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+.logo-image {
+    margin-top: 0;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+.charity {
+    font-family: "Gotham";
+    text-align: left;
+    width: 100%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    color: #000000;
+    line-height: 15pt;
+}
+  
+.copyright {
+    font-family: "Gotham", Book;
+    text-align: right;
+    margin-bottom: 1%;
+    color: #000000;
+}

@@ -1,0 +1,205 @@
+/* ROOT */
+
+@media screen and (max-width: 500px) {
+  .content{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+  }
+
+  header{
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    width: 100%;
+    background-image: url("../media/background-images/jim_collins.jpg");
+  }
+
+  h1{
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: 2%;
+  }
+
+  li{
+    float: none;
+  }
+
+  th, td { display: block; }
+
+  h1{
+    padding-top: 0;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 22pt;
+  }
+
+  .body-text{
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .pageswitch {text-align: left; text-shadow: 1.5pt 1.5pt #262626A0; width: 90%; margin-left: 5%;}
+}
+
+/* HOME */
+
+@media screen and (max-width: 500px) {
+  #home-title {text-align: left; font-size: 46pt; width: 90%; margin-left: 5%;}
+  
+  .heading-left, .heading-right {font-size: 24pt; text-align: center; width: 90%; margin-left: 5%;}
+
+  .gradient {background: var(--background-colour); margin-top: 20%; padding-bottom: 10%;}
+
+  #information {font-size: 18pt; width: 90%; margin-right: 5%;}
+
+  .quote-attribution {font-size: 16pt; width: 90%; margin-right: 5%;}
+
+  .scroll-down {display: block; position: relative; font-size: 13pt; text-align: center; margin-left: 5%; padding-top: 5%; margin-bottom: 0;}
+
+  .footer-image {margin-top: 10%;}
+
+  .quote-footer {font-size: 16pt; width: 90%; margin-left: 5%; padding-top: 0; margin-top: 0;}
+
+  .quote-attribution-footer {padding-bottom: 20%; font-size: 14pt; width: 90%; margin-left: 5%;}
+} 
+
+/* ARCHIVE */
+
+@media screen and (max-width: 500px) {
+  .people-of-exmoor {
+    font-size: 36pt;
+    text-shadow: 2pt 2pt #65656580;
+  }
+
+  .archive-guide {font-size: 14pt; padding-bottom: 0; width: 100%; margin-left: 0}
+
+  .return-to-homepage {margin-left: 0; scale: 0.8;}
+
+  #background_image_credits {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .image-grid{
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+
+  .print-container {
+    display: none;
+  }
+
+  .stats-text{
+    text-align: center;
+  }
+
+  .image-preview{
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    font-size: 20pt;
+  }
+
+  #searchbar{
+    margin-left: 5%;
+    width: 90%;
+    font-size: 16pt;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    background-color: #26262600;
+  }
+}
+
+/* MODAL */
+
+@media screen and (max-width: 500px) {
+  .logo-image{
+    float: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .links-table{
+    /* margin-left: auto !important; */
+    /* margin-right: auto !important; */
+    width: 70%;
+    margin-left: 15%;
+    padding-left: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-width: 0.5px;
+  }
+  
+  td .link{
+    font-size: 15pt;
+    padding: 8px 50px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-width: 0.5px;
+  }
+
+  .image-border{
+    float: none;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0;
+  }
+  
+  .main-image {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: -1%;
+    /* padding-right: auto; */
+  }
+
+  .modal_close{
+    margin-right: 5%;
+  }
+
+  .modal_home{
+    margin-left: 5%;
+  }
+}
+
+/* FOOTER */
+
+@media screen and (max-width: 500px) {
+  
+    footer{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .footer-links{
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    td .footer-link{
+      text-align: center;
+      font-size: 14pt;
+      padding-left: 0;
+    }
+  
+    .charity {
+      text-align: center;
+      font-size: 14pt;
+    }
+  
+    .copyright {
+      font-size: 14pt;
+      text-align: center;
+    }
+  }

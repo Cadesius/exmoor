@@ -1,0 +1,134 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #000000; 
+    background-color: #00000000; 
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+  
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--modal-background-colour);
+    width: 100%;
+    height: 100%;
+}
+  
+.modal_close {
+    font-family: "Gotham";
+    color: var(--text-colour);
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    font-size: 40px;
+    font-weight: bold;
+    transition: opacity 0.5s;
+}
+  
+.modal_home {
+    font-family: "Gotham";
+    color: var(--text-colour);
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    transition: opacity 0.5s;
+    font-size: 18pt;
+    padding-top: 10px;
+    font-weight: bold;
+}
+  
+.modal_home_icon {
+    height: 18px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+  
+.modal_close:hover,
+.modal_home:hover,
+.modal_close:focus,
+.modal_home:focus {
+    opacity: 0.3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links-table {
+    border: 0px solid #ffffff00;
+    width: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.stats-text {
+    font-family: "Gotham";
+    text-align: left;
+    font-size: 14pt;
+    width: 100%;
+    padding-top: .5%;
+    padding-left: 0%;
+    color: var(--text-colour);
+}
+
+.interview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-image{
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+    padding: 5%
+}
+  
+.image-border{
+    /* padding: 2%; */
+    width: 90%;
+    background-color: var(--text-colour);
+    /* float: left; */
+    position: relative;
+    /* margin-right: 6%; */
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+}
+
+.interview-text-block {
+    border-left: 2pt solid var(--text-colour); padding-left: 10%;
+}
+
+td .link {
+    background-color: var(--text-colour);
+    border: 2px solid var(--text-colour);
+    margin: 3px;
+    display: block;
+    color: var(--background-colour);
+    font-family: "Gotham";
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    -o-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -ms-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -moz-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    -webkit-transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+    transition:color 0s ease-out, background .5s ease-in, color .5s ease-in;
+}
+  
+td .link:hover {
+    background-color: #26262600;
+    color: var(--text-colour);
+}

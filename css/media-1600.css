@@ -1,0 +1,83 @@
+@media screen and (max-width: 1600px) {
+
+  #home-title {font-size: 84pt; width: 80%; padding-top: 2%;}
+
+  .gradient {padding-bottom: 60%;}
+
+  .pageswitch, .body-text-left, .body-text-right, .heading-left, .heading-right, #information, .quote-attribution, .quote-footer, .quote-attribution-footer {width: 60%}
+
+  #home-title, .body-text-left, .heading-left, .pageswitch, .quote-footer, .quote-attribution-footer {margin-left: 10%;}
+  
+  .body-text-right, .heading-right, .quote-attribution, #information {margin-right: 10%;}
+
+  .logo-image { width: 25%; float: left;}
+
+  .footer-links {width: 70%; margin-right: 0; margin-left: auto;}
+
+  .image-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+  .image-preview {
+    margin-bottom: 5%;
+  }
+
+  .image-preview {
+    padding-bottom: 7%;
+  }
+
+  .content {margin-left: 10%; margin-right: 10%;}
+
+  .modal_home {margin-left: 10%;}
+
+  .modal_close {margin-right: 10%;}
+
+  #searchbar, .image-grid {width: 80%; margin-left: 10%;}
+
+  footer {padding-left: 10%; padding-right: 10%;}
+  
+}
+
+
+@media screen and (max-width: 1440px) {
+
+  .interview-content {
+    grid-template-columns: 1fr;
+  }
+
+  .image-border{
+    width: 100%;
+  }
+
+  .links-table{
+    margin-left: -4px;
+  }
+
+  .interview-text-block {
+    border-left: none; padding-left: 0;
+  }
+
+  #home-title {font-size: 72pt;}
+
+  .people-of-exmoor {font-size: 60pt;}
+
+  .image-grid {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+  /* .theme-switch-icon {height: 25px; width: 25px; top: 25px; right: 25px} */
+}
+
+@media screen and (max-width: 1200px) {
+
+  #information {font-size: 26pt;} .quote-attribution {font-size: 22pt;}
+
+  #home-title {font-size: 48pt;}
+
+  h2 {font-size: 20pt;}
+
+  .image-preview {padding-bottom: 8%; font-size: 12pt;}
+
+  .people-of-exmoor {font-size: 54pt;}
+
+  #searchbar {font-size: 18pt;}
+}
