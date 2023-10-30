@@ -25,3 +25,5 @@
 .quote-footer {font-family:'Times New Roman', Times, serif; font-size: 28pt; font-weight: normal; font-style: italic; letter-spacing: 2pt; padding-top: 5%; margin-top: 5%; padding-bottom: 0; text-align: left; width: 50%; margin-right: auto; margin-left: 15%; color: var(--text-colour); text-shadow: none;}
 
 .quote-attribution-footer {font-size: 18pt; font-weight: lighter; padding-top: 2%; padding-bottom: 5%; text-align: left; width: 50%; margin-right: auto; margin-left: 15%; color: var(--text-colour); text-shadow: none;}
+
+.scroll-to-top {font-weight: bold; padding-top: 48%; padding-bottom: 2%; font-size: 14pt; margin-bottom: 0; text-shadow: 1pt 1pt #262626a0; text-align: center;}
