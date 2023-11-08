@@ -68,7 +68,6 @@ const modal_creators = [
 	`modal_creator ("PEARCEY", "MURIEL", "Muriel Pearcey", "Countisbury, Blue Anchor")`,
 	`modal_creator ("HALLIDAY", "BEN", "Ben Halliday", "Countisbury")`,
 	`modal_creator ("REEVES", "HAROLD", "Harold Reeves", "West Luccombe, Allerford")`,
-	`modal_creator ("BALES", "DEREK", "Derek Bales", "Brushford, Dulverton")`,
 	`modal_creator ("RICHARDS", "ADA", "Ada Richards", "Brendon, Countisbury, Porlock")`,
 	`modal_creator ("HOOPER", "STANLEY", "Stanley Hooper", "Bossington, Allerford")`,
 	`modal_creator ("TROAKE", "TOM", "Tom Troake", "Dulverton and Brushford")`
