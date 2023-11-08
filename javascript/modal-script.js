@@ -71,8 +71,7 @@ const modal_creators = [
 	`modal_creator ("BALES", "DEREK", "Derek Bales", "Brushford, Dulverton")`,
 	`modal_creator ("RICHARDS", "ADA", "Ada Richards", "Brendon, Countisbury, Porlock")`,
 	`modal_creator ("HOOPER", "STANLEY", "Stanley Hooper", "Bossington, Allerford")`,
-	`modal_creator ("TROAKE", "TOM", "Tom Troake", "Dulverton and Brushford")`,
-	`modal_creator ("RICHARDS", "ADA", "Ada Richards", "Brendon, Countisbury, Porlock")`,
+	`modal_creator ("TROAKE", "TOM", "Tom Troake", "Dulverton and Brushford")`
 ];
 
 modal_creators.sort ();
